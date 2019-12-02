@@ -13,10 +13,10 @@ import org.ehcache.config.units.MemoryUnit;
 
 public class EhCacheManager {
 
-	private static final String CACHE_PERSISTENCE = "." 
-				+ File.pathSeparator 
+	protected static final String CACHE_PERSISTENCE = "." 
+				+ File.separator 
 				+ "LocalCache" 
-				+ File.pathSeparator
+				+ File.separator
 				+ "persistance";
 
 	@SuppressWarnings("rawtypes")
